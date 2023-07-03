@@ -722,6 +722,12 @@ function answerA_clicked() {
     console.log(pdf.innerHTML);
     pdf.innerHTML="";
     pdf.innerHTML= `<object data="OPC-Questionnaires-Issue18-16OCT2021.pdf${page}" type="application/pdf" width="100%" height="700px">
+    <iframe
+              src="OPC-Questionnaires-Issue18-16OCT2021.pdf${page}"
+              width="100%"
+              height="100%"
+              style="border: none;"
+            >
   </object>`
 }
 
