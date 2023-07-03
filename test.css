@@ -1,4 +1,7 @@
 .flex { display:flex;}
+iframe{
+  width: 100% !important;
+}
 
 .field {
   min-width: 200px;
