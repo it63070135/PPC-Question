@@ -718,11 +718,11 @@ function btnProvideQuestion() {
 
 function answerA_clicked() {
   window.open(`OPC-Questionnaires-Issue18-16OCT2021.pdf${page}`, "_blank");
-  	var pdf = document.getElementById("pdf");
-    console.log(pdf.innerHTML);
-    pdf.innerHTML="";
-    pdf.innerHTML= `<a href="OPC-Questionnaires-Issue18-16OCT2021.pdf${page}">Open PDF</a>`
-    pdf.hidden = false;
+  	// var pdf = document.getElementById("pdf");
+    // console.log(pdf.innerHTML);
+    // pdf.innerHTML="";
+    // pdf.innerHTML= `<a href="OPC-Questionnaires-Issue18-16OCT2021.pdf${page}">Open PDF</a>`
+    // pdf.hidden = false;
 }
 
 function answerB_clicked() {
