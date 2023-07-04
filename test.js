@@ -718,17 +718,10 @@ function btnProvideQuestion() {
 
 function answerA_clicked() {
   	var pdf = document.getElementById("pdf");
-    pdf.hidden = false;
     console.log(pdf.innerHTML);
     pdf.innerHTML="";
-    pdf.innerHTML= `<object data="OPC-Questionnaires-Issue18-16OCT2021.pdf${page}" type="application/pdf" width="100%" height="700px">
-    <iframe
-              src="OPC-Questionnaires-Issue18-16OCT2021.pdf${page}"
-              width="100%"
-              height="100%"
-              style="border: none;"
-            >
-  </object>`
+    pdf.innerHTML= `<embed id="pdf-viewer" src="OPC-Questionnaires-Issue18-16OCT2021.pdf${page}" type="application/pdf" width="100%" height="700px" />`
+    pdf.hidden = false;
 }
 
 function answerB_clicked() {
