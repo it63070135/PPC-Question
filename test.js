@@ -720,8 +720,9 @@ function answerA_clicked() {
   	var pdf = document.getElementById("pdf");
     console.log(pdf.innerHTML);
     pdf.innerHTML="";
-    pdf.innerHTML= `<embed id="pdf-viewer" src="OPC-Questionnaires-Issue18-16OCT2021.pdf${page}" type="application/pdf" width="100%" height="700px" />`
+    pdf.innerHTML= `<a href="OPC-Questionnaires-Issue18-16OCT2021.pdf${page}">Open PDF</a>`
     pdf.hidden = false;
+    
 }
 
 function answerB_clicked() {
