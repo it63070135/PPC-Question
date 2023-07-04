@@ -717,7 +717,7 @@ function btnProvideQuestion() {
 }
 
 function answerA_clicked() {
-  window.open(`OPC-Questionnaires-Issue18-16OCT2021.pdf${page}`);
+  window.open(`OPC-Questionnaires-Issue18-16OCT2021.pdf${page}`, "_blank");
   	var pdf = document.getElementById("pdf");
     console.log(pdf.innerHTML);
     pdf.innerHTML="";
